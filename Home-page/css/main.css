@@ -636,26 +636,34 @@ input[type=submit]{
  
 
 }
+.sub{
+    margin-left: 70%;
+ 
+}
 
-#sub{
-     margin-left: 70%;
+
+.button-box {
+    border: 1px solid #ccc; /* Border */
+   /* border-radius: 5px;  Rounded corners */
+    padding: 10px; /* Padding */
+    width: fit-content; /* Adjust width to fit the content */
+    margin: 20px auto; /* Center horizontally with auto margins */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
   
-}
-
-#sub2{
-     margin-left: 5%;
+  .sub {
+    background-color: white; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+   /* border-radius: 5px;  Rounded corners */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Cursor on hover */
+  }
   
-}
-
-input[type=submit]:hover{
-    color: #ec3d68;
-    border: 1px solid #ec3d68;
-}
-
-input[type=submit]:focus{
-    outline: none;
-}
-
+  .sub:hover {
+    background-color: white; /* Change background color on hover */
+  }
+  
 .arrival {
     display: block;
     margin-top: 5%;
