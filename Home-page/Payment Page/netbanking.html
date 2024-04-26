@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netbanking Payment</title>
+  <link rel="stylesheet" href="netbankingstyle.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Netbanking Payment</h2>
+    <form id="netbanking-form">
+      <label for="bank">Select Bank:</label>
+      <select id="bank">
+        <option value="">Select Bank</option>
+        <option value="bank1">Punjab Nation Bank</option>
+        <option value="bank2">State Bank of India</option>
+        <option value="bank3">HDFC</option>
+        <!-- Add more banks as needed -->
+      </select><br>
+      <button type="submit">Pay Now</button>
+    </form>
+    <div id="payment-status"></div>
+  </div>
+
+  <script src="netbankingscript.js"></script>
+</body>
+</html>
